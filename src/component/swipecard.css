@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+}
+
+
+.box{
+    width: 30%;
+    height: 30%;
+    transition: all 0.3s linear;
+}
+.nextbtn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    background-color: rgb(163, 118, 118);
+    right:5px;
+    z-index: 2;
+}
+.prevbtn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    background-color: red;
+    left:5px;
+    z-index: 2;
+}
+.Bg-container{
+    background-color: greenyellow;
+    width: 100vw;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.my-swiper{
+    width: 90%;
+    height: 90%;
+    border:2px solid black;
+}
+
+.slider{
+    top:15%;
+    width: 100%!important;
+    height: 50%!important;
+    /* background-color: aqua; */
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.slider:nth-child(1) .box{
+    background-color: red;
+}
+.slider:nth-child(2) .box{
+    background-color: violet;
+}.slider:nth-child(3) .box{
+    background-color: orange;
+}.slider:nth-child(4) .box{
+    background-color: aqua;
+}.slider:nth-child(5) .box{
+    background-color:pink;
+}
